@@ -1,4 +1,20 @@
 
+.live a{
+text-decoration: none;
+font-size: medium;
+color: white;
+}
+/* .b-bg{
+    background-color:rgb(236, 167, 155);
+    ;
+} */
+.live{
+    padding: 5px;
+    padding-left: 10px
+    padding-top:20px;
+}
+
+
 .gallery-title
 {
     font-size: 36px;
@@ -23,6 +39,8 @@
     text-align: center;
     color: #42B32F;
     margin-bottom: 30px;
+    background-color: white;
+
 
 }
 .filter-button:hover
@@ -46,7 +64,40 @@
     width: 100%;
 }
 
-.gallery_product
+.gallery_project
 {
     margin-bottom: 30px;
+
 }
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: .5;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  .details{
+    position: relative;
+    width: 100%;
+  }
+  .details:hover .overlay {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }

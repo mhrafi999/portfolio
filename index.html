@@ -1,89 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<link rel="stylesheet" href="styles.css">
-<script src="script.js"></script>
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Document</title>
 </head>
+
 <body>
-	
 
-<!------ Include the above in your HEAD tag ---------->
 
- <div class="container">
+    <!------ Include the above in your HEAD tag ---------->
+
+    <div class="container ">
         <div class="row">
-       
 
-        <div align="center">
-            <button class="btn btn-default filter-button" data-filter="all">All</button>
-            <button class="btn btn-default filter-button" data-filter="hdpe">HDPE Pipes</button>
-            <button class="btn btn-default filter-button" data-filter="sprinkle">Sprinkle Pipes</button>
-            <button class="btn btn-default filter-button" data-filter="spray">Spray Nozzle</button>
-            <button class="btn btn-default filter-button" data-filter="irrigation">Irrigation Pipes</button>
+
+            <div align="center " class="fixed-top">
+                <button class="text-black b-bg btn btn-default filter-button" data-filter="all">All</button>
+                <button class="text-black b-bg btn btn-default filter-button" data-filter="latest">Latest</button>
+                <button class="text-black b-bg btn btn-default filter-button" data-filter="popular">Popular
+                </button>
+                <button class="text-black b-bg btn btn-default filter-button" data-filter="more">More</button>
+                <button class="text-black b-bg btn btn-default filter-button" data-filter="upcoming">Upcoming</button>
+
+            </div>
+            <br />
+            <!---------Latest Area Start---------------------------->
+            <div class="gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter latest">
+                <div class="details"> <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <div class="overlay">
+                        <div class="text"> Details In The Project </div>
+                    </div>
+                </div>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Live</a></button>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Image</a></button>
+            </div>
+            <div class="gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter latest">
+                <div class="details"> <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <div class="overlay">
+                        <div class="text"> Details In The Project </div>
+                    </div>
+                </div>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Live</a></button>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Image</a></button>
+            </div>
+            <div class="gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter latest">
+                <div class="details"> <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <div class="overlay">
+                        <div class="text"> Details In The Project </div>
+                    </div>
+                </div>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Live</a></button>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Image</a></button>
+            </div>
+            <div class="gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter latest">
+                <div class="details"> <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <div class="overlay">
+                        <div class="text"> Details In The Project </div>
+                    </div>
+                </div>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Live</a></button>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Image</a></button>
+            </div>
+            <div class="gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter latest">
+                <div class="details"> <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <div class="overlay">
+                        <div class="text"> Details In The Project </div>
+                    </div>
+                </div>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Live</a></button>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Image</a></button>
+            </div>
+
+
+            <!---------Letest Area End------------------------------->
+
+
+
+
+            <!---------Popular Area Start---------------------------->
+            <div class="gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter popular">
+                <div class="details"> <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <div class="overlay">
+                        <div class="text"> Details In The Project </div>
+                    </div>
+                </div>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Live</a></button>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Image</a></button>
+            </div>
+            <div class="gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter popular">
+                <div class="details"> <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <div class="overlay">
+                        <div class="text"> Details In The Project </div>
+                    </div>
+                </div>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Live</a></button>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Image</a></button>
+            </div>
+            <div class="gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter popular">
+                <div class="details"> <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <div class="overlay">
+                        <div class="text"> Details In The Project </div>
+                    </div>
+                </div>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Live</a></button>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Image</a></button>
+            </div>
+            <div class="gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter popular">
+                <div class="details"> <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <div class="overlay">
+                        <div class="text"> Details In The Project </div>
+                    </div>
+                </div>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Live</a></button>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Image</a></button>
+            </div>
+            <div class="gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter popular">
+                <div class="details"> <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <div class="overlay">
+                        <div class="text"> Details In The Project </div>
+                    </div>
+                </div>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Live</a></button>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Image</a></button>
+            </div>
+            <div class="gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter popular">
+                <div class="details"> <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <div class="overlay">
+                        <div class="text"> Details In The Project </div>
+                    </div>
+                </div>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Live</a></button>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Image</a></button>
+            </div>
+            <div class="gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter popular">
+                <div class="details"> <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <div class="overlay">
+                        <div class="text"> Details In The Project </div>
+                    </div>
+                </div>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Live</a></button>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Image</a></button>
+            </div>
+
+
+            <!---------Popular Area End------------------------------->
+
+
+
+            <!--------- More Area Start---------------------------->
+
+            <div class="gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter more">
+                <div class="details"> <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <div class="overlay">
+                        <div class="text"> Details In The Project </div>
+                    </div>
+                </div>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Live</a></button>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Image</a></button>
+            </div>
+            <div class="gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter more">
+                <div class="details"> <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <div class="overlay">
+                        <div class="text"> Details In The Project </div>
+                    </div>
+                </div>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Live</a></button>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Image</a></button>
+            </div>
+            <div class="gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter more">
+                <div class="details"> <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <div class="overlay">
+                        <div class="text"> Details In The Project </div>
+                    </div>
+                </div>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Live</a></button>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Image</a></button>
+            </div>
+            <div class="gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter more">
+                <div class="details"> <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <div class="overlay">
+                        <div class="text"> Details In The Project </div>
+                    </div>
+                </div>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Live</a></button>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Image</a></button>
+            </div>
+
+            <!--------- More Area End------------------------------->
+
+
+
+            <!--------- Upcoming Area Start---------------------------->
+            <div class="gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter upcoming">
+                <div class="details"> <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <div class="overlay">
+                        <div class="text"> Details In The Project </div>
+                    </div>
+                </div>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Live</a></button>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Image</a></button>
+            </div>
+            <div class="gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter upcoming">
+                <div class="details"> <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <div class="overlay">
+                        <div class="text"> Details In The Project </div>
+                    </div>
+                </div>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Live</a></button>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Image</a></button>
+            </div>
+            <div class="gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter upcoming">
+                <div class="details"> <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <div class="overlay">
+                        <div class="text"> Details In The Project </div>
+                    </div>
+                </div>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Live</a></button>
+                <button type="button" class=" live btn btn-primary text-white"><a href="#">Show Image</a></button>
+            </div>
+
+
+            <!--------- Upcoming Area End------------------------------->
+
+
+
+
+
         </div>
-        <br/>
 
-
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-              <a href="www.coder999.com">  <img src="http://fakeimg.pl/365x365/" class="img-responsive"></a>
-            </div>
-        </div>
     </div>
-</section>
-
+    </div>
+    </section>
+    </div>
 </body>
+
 </html>
