@@ -83,11 +83,17 @@ color: white;
   }
   .details{
     position: relative;
-    width: 100%;
+    width: 365px;
+    height: 365px;
   }
   .details:hover .overlay {
     height: 100%;
     width: 100%;
+  }
+  img{
+    width: 365px;
+    height: 365px;
+    overflow: hidden;
   }
   
   .text {
