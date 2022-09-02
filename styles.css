@@ -4,10 +4,12 @@ text-decoration: none;
 font-size: medium;
 color: white;
 }
-/* .b-bg{
-    background-color:rgb(236, 167, 155);
-    ;
-} */
+
+.b-bg:hover{
+    scale: 1.2;
+    box-shadow: 5px 5px 5px black;
+
+}
 .live{
     padding: 5px;
     padding-left: 10px
